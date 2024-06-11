@@ -69,6 +69,8 @@ function App() {
           que la chicha que describren en la misma no haya salido huyendo y
           espero que se sigan viendo y conociendo.
         </p>
+        <p>No dudes ni por un minuto de mis sentimientos</p>
+        <p>Despues de ti, el resto del mundo me parece simple</p>
       </div>
     </>
   );
