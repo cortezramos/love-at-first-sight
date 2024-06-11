@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://cortezramos.github.io/love-at-first-sight",
+  "homepage": "https://cortezramos.github.io/love-at-first-sight",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
