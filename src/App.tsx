@@ -1,6 +1,7 @@
 import letter from "./assets/letters.svg";
 
 import "./App.css";
+import { Video } from "./Video";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       </div>
       <h2>
         Amor a primera vista, para{" "}
-        <span style={{ color: "red", fontSize: "130%" }}>A</span>ndrea{" "}
+        <span style={{ color: "red", fontSize: "150%" }}>A</span>ndrea{" "}
       </h2>
       <div className="card">
         <h4>Investigacion según la IA basado en un resumen de articulos</h4>
@@ -62,13 +63,18 @@ function App() {
           y solo quieres escucharla volverla a ver aunque fuera por 2 minutos.
         </p>
         <p>
-          <span style={{ color: "red", fontSize: "130%" }}>A</span>ndrea, no
+          <span style={{ color: "red", fontSize: "150%" }}>A</span>ndrea, no
           encontre mayor información de la que ya sabes ni una verdad absoluta
           sobre el amor a primera vista. Pero me quedo con esta experiencia
           espero te sirva para tu investigación sobre el tema y espero también
           que la chicha que describren en la misma no haya salido huyendo y
           espero que se sigan viendo y conociendo.
         </p>
+        <span style={{ color: "red", fontSize: "150%" }}>N</span>uestras
+        primeras canciones
+        <div className="card">
+          <Video />
+        </div>
         <p>No dudes ni por un minuto de mis sentimientos</p>
         <p>Despues de ti, el resto del mundo me parece simple</p>
       </div>
