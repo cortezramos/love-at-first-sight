@@ -2,6 +2,7 @@ import letter from "./assets/letters.svg";
 
 import "./App.css";
 import { Video } from "./Video";
+import { NewUrl } from "./NewUrl";
 
 function App() {
   return (
@@ -72,6 +73,9 @@ function App() {
         </p>
         <span style={{ color: "red", fontSize: "150%" }}>N</span>uestras
         primeras canciones
+        <div className="card">
+          <NewUrl />
+        </div>
         <div className="card">
           <Video />
         </div>
