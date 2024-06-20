@@ -14,6 +14,7 @@ export const Video = () => {
           "https://www.youtube.com/watch?v=dsLjyLn859g",
           "https://www.youtube.com/watch?v=8g3KHA8ROiA",
           "https://www.youtube.com/watch?v=o12p0Zh6r_g",
+          "https://www.youtube.com/watch?v=lmDfmilZ4Xo",
         ]}
         controls
         loop
