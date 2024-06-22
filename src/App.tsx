@@ -18,7 +18,7 @@ function App() {
       </h2>
       <div className="card">
         <h4>Investigacion según la IA basado en un resumen de articulos</h4>
-        <p style={{ textAlign: "left" }}>
+        <p style={{ textAlign: "justify" }}>
           El amor a primera vista es un flechazo repentino, una conexión
           instantánea y una atracción inmediata entre dos personas que se ven
           por primera vez. Es un sentimiento intenso y apasionado que surge
@@ -36,7 +36,7 @@ function App() {
 
       <div className="card">
         <h4>Experiencia de un amor a primera vista</h4>
-        <p style={{ textAlign: "left" }}>
+        <p style={{ textAlign: "justify" }}>
           Surge cuando no lo esperas y entonces de la nada conoces a una persona
           y empiezas a notar sus detalles, sus gestos, su ceja, su sonrisa esa
           bendita sonrisa que te cambiara todo. Acto seguido tienes la
@@ -71,17 +71,15 @@ function App() {
           que la chicha que describren en la misma no haya salido huyendo y
           espero que se sigan viendo y conociendo.
         </p>
-        <span style={{ color: "red", fontSize: "150%" }}>N</span>uestras
-        primeras canciones
-        <div className="card">
-          <NewUrl />
-        </div>
-        <div className="card">
-          <Video />
-        </div>
-        <p>No dudes ni por un minuto de mis sentimientos</p>
-        <p>Despues de ti, el resto del mundo me parece simple</p>
       </div>
+      <div className="card">
+        <NewUrl />
+      </div>
+      <div className="card">
+        <Video />
+      </div>
+      <p>No dudes ni por un minuto de mis sentimientos</p>
+      <p>Despues de ti, el resto del mundo me parece simple</p>
     </>
   );
 }

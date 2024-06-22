@@ -13,14 +13,16 @@
     "deployforandrea": "gh-pages -d dist"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "firebase": "^10.12.2",
     "gh-pages": "^6.1.1",
     "pnpm": "^9.4.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-hook-form": "^7.52.0",
     "react-player": "^2.16.0",
     "react-router": "^6.23.1",
+    "reactstrap": "^9.2.2",
     "sonner": "^1.5.0"
   },
   "devDependencies": {

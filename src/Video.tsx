@@ -3,6 +3,7 @@ import "./App.css";
 import YoutubePlayer from "react-player/youtube";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "./firebase/config";
+import { Spinner } from "reactstrap";
 
 export const Video = () => {
   const [data, setData] = useState<string[]>([]);
@@ -25,8 +26,21 @@ export const Video = () => {
     []
   );
 
+  if (!load)
+    return (
+      <Spinner
+        color="primary"
+        style={{
+          height: "3rem",
+          width: "3rem",
+        }}
+      >
+        Cargando...!!!
+      </Spinner>
+    );
+
   return (
-    <div className="reactplayer">
+    <div>
       {load && (
         <YoutubePlayer
           url={data}
