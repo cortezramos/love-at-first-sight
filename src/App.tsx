@@ -3,6 +3,7 @@ import letter from "./assets/letters.svg";
 import "./App.css";
 import { Video } from "./Video";
 import { NewUrl } from "./NewUrl";
+import { QuizGirlfriend } from "./QuizGirlfriend";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         </a>
       </div>
       <h2>
-        Amor a primera vista, para{" "}
+        Amor a primera vista, para
         <span style={{ color: "red", fontSize: "150%" }}>A</span>ndrea{" "}
       </h2>
       <div className="card">
@@ -77,6 +78,9 @@ function App() {
       </div>
       <div className="card">
         <Video />
+      </div>
+      <div className="card">
+        <QuizGirlfriend />
       </div>
       <p>No dudes ni por un minuto de mis sentimientos</p>
       <p>Despues de ti, el resto del mundo me parece simple</p>

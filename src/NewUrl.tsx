@@ -56,7 +56,6 @@ export const NewUrl = () => {
         <div>
           {errors && (
             <p style={{ color: "red" }}>
-              {" "}
               {errors.url?.type === "required" ? "Campo requerido" : ""}
             </p>
           )}
