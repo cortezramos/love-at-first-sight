@@ -8,10 +8,6 @@ export const FinishQuiz = () => {
 
   const { acceptanceRate } = useAppSelector((state) => state.globalStore);
 
-  const handleSayYes = () => {
-    setSheSayYes(true);
-  };
-
   return (
     <>
       <p>
